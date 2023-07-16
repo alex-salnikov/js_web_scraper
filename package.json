@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
-    "axios": "1.4.0",
     "cheerio": "1.0.0-rc.12",
-    "node-fetch": "^3.2.6"
+    "got": "13.0.0",
+    "windows-1251": "3.0.4"
   }
 }
